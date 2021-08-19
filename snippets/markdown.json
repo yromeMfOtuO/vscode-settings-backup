@@ -1,0 +1,307 @@
+{
+	// 输入一个空格
+	"markdown space": {
+		"prefix": "mspace",
+		"body": [
+			"&ensp;"
+		],
+		"description": "fast input one space key"
+	},
+
+	// 输入两个空格
+	"markdown double space": {
+		"prefix": "mspacedouble",
+		"body": [
+			"&emsp;"
+		],
+		"description": "fast input two space keys"
+	},
+
+	// 输入一个tab，相当于4个空格
+	"markdown tab": {
+		"prefix": "mtab",
+		"body": [
+			"&emsp;&emsp;"
+		],
+		"description": "fast create a tab"
+	},
+
+	"markdown section": {
+		"prefix": "msection",
+		"body": [
+			"> "
+		],
+		"description": "fast create a section"
+	},
+
+	"markdown code section": {
+		"prefix": "mcode",
+		"body": [
+			"```$1",
+			"\t$2",	// 报错但是可以运行
+			"```"
+		],
+		"description": "fast create a code section"
+	},
+
+	"markdown scala code section": {
+		"prefix": "mscalacode",
+		"body": [
+			"```scala",
+			"\t$1",	// 报错但是可以运行
+			"```"
+		],
+		"description": "fast create a scala code section"
+	},
+
+	"markdown json code section": {
+		"prefix": "mjsoncode",
+		"body": [
+			"```json",
+			"\t$1",	// 报错但是可以运行
+			"```"
+		],
+		"description": "fast create a json code section"
+	},
+
+	"markdown groovy code section": {
+		"prefix": "mgroovycode",
+		"body": [
+			"```groovy",
+			"\t$1",	// 报错但是可以运行
+			"```"
+		],
+		"description": "fast create a groovy code section"
+	},
+
+	"markdown java code section": {
+		"prefix": "mjavacode",
+		"body": [
+			"```java",
+			"\t$1",	// 报错但是可以运行
+			"```"
+		],
+		"description": "fast create a java code section"
+	},
+
+	"markdown sql code section": {
+		"prefix": "msqlcode",
+		"body": [
+			"```sql",
+			"\t$1",	// 报错但是可以运行
+			"```"
+		],
+		"description": "fast create a sql code section"
+	},
+	
+	"markdown properties code section": {
+		"prefix": "mpropcode",
+		"body": [
+			"```properties",
+			"\t$1",	// 报错但是可以运行
+			"```"
+		],
+		"description": "fast create a properties code section"
+	},
+	
+	"markdown xml code section": {
+		"prefix": "mxmlcode",
+		"body": [
+			"```xml",
+			"\t$1",	// 报错但是可以运行
+			"```"
+		],
+		"description": "fast create a xml code section"
+	},
+
+	"markdown link": {
+		"prefix": "mlink",
+		"body": [
+			"[$1]($2)",
+		],
+		"description": "fast create a link"
+	},
+
+	"markdown picture": {
+		"prefix": "mpic",
+		"body": [
+			"![$1]($2)",
+		],
+		"description": "fast create a picture"
+	},
+
+	"markdown picture with title": {
+		"prefix": "mpict",
+		"body": [
+			"![$1]($2 \"$3\")",
+		],
+		"description": "fast create a picture with title"
+	},
+
+	// 一下为markdown文字相关
+	// 倾斜字体
+	"markdown slant fonts": {
+		"prefix": "msfont",
+		"body": [
+			"*$1*",
+		],
+		"description": "fast create a slant font section"
+	},
+
+	// 加粗字体
+	"markdown bold fonts": {
+		"prefix": "mbfont",
+		"body": [
+			"**$1**",
+		],
+		"description": "fast create a bold font section"
+	},
+
+	// 加粗倾斜
+	"markdown bold slant fonts": {
+		"prefix": "mbsfont",
+		"body": [
+			"***$1***",
+		],
+		"description": "fast create a bold slant font section"
+	},
+
+	// 红色字体
+	"markdown red fonts": {
+		"prefix": "mredfont",
+		"body": [
+			"<font color=#FF0000>$1</font>",
+		],
+		"description": "fast create a red font section"
+	},
+
+	// 加粗倾斜红色字体
+	"markdown bold slant red fonts": {
+		"prefix": "mbsrfont",
+		"body": [
+			"<font color=#FF0000>***$1***</font>",
+		],
+		"description": "fast create a bold slant red font section"
+	},
+	
+	// 加粗粉色字体
+	"markdown pink fonts": {
+		"prefix": "mpinkfont",
+		"body": [
+			"<font color=#FFC0CB >$1</font>",
+		],
+		"description": "fast create a pink font section"
+	},
+
+	// 加粗倾斜粉色字体
+	"markdown bold slant pink fonts": {
+		"prefix": "mbspinkfont",
+		"body": [
+			"<font color=#FFC0CB >***$1***</font>",
+		],
+		"description": "fast create a bold slant pink font section"
+	},
+
+	// darkcyan 字体
+	"markdown darkcyan fonts": {
+		"prefix": "mdarkcyanfont",
+		"body": [
+			"<font color=#008B8B >$1</font>",
+		],
+		"description": "fast create a darkcyan font section"
+	},
+	
+	// 加粗倾斜 darkcyan 字体
+	"markdown bold slant darkcyan fonts": {
+		"prefix": "mbsdarkcyanfont",
+		"body": [
+			"<font color=#008B8B >***$1***</font>",
+		],
+		"description": "fast create a bold slant darkcyan font section"
+	},
+
+	// 删除线
+	"markdown delete line": {
+		"prefix": "mdelline",
+		"body": [
+			"~~$1~~",
+		],
+		"description": "fast create a delete line section"
+	},
+
+	// 以下为markdown 表格模板
+	"markdown table 3 columns": {
+		"prefix": "mtable3",
+		"body": [
+			"|$1 |$2 |$3 |",
+			"|-|-|-|",
+			"| | | |",
+			"| | | |",
+		],
+		"description": "fast create a tab with 3 columns"
+	},
+
+	"markdown table 4 columns": {
+		"prefix": "mtable4",
+		"body": [
+			"|$1 |$2 |$3 |$4 |",
+			"|-|-|-|-|",
+			"| | | | |",
+			"| | | | |",
+		],
+		"description": "fast create a tab with 4 columns"
+	},
+	
+	"markdown table 5 columns": {
+		"prefix": "mtable5",
+		"body": [
+			"|$1 |$2 |$3 |$4 |$5 |",
+			"|-|-|-|-|-|",
+			"| | | | | |",
+			"| | | | | |",
+		],
+		"description": "fast create a tab with 5 columns"
+	},
+	
+	"markdown table 6 columns": {
+		"prefix": "mtable6",
+		"body": [
+			"|$1 |$2 |$3 |$4 |$5 |$6 |",
+			"|-|-|-|-|-|-|",
+			"| | | | | | |",
+			"| | | | | | |",
+		],
+		"description": "fast create a tab with 6 columns"
+	},
+	
+	"markdown table 7 columns": {
+		"prefix": "mtable7",
+		"body": [
+			"|$1 |$2 |$3 |$4 |$5 |$6 |$7 |",
+			"|-|-|-|-|-|-|-|",
+			"| | | | | | | |",
+			"| | | | | | | |",
+		],
+		"description": "fast create a tab with 7 columns"
+	},
+	
+	"markdown table 2 columns": {
+		"prefix": "mtable2",
+		"body": [
+			"|$1 |$2 |",
+			"|-|-|",
+			"| | |",
+			"| | |",
+		],
+		"description": "fast create a tab with 2 columns"
+	},
+	
+	"markdown new line": {
+		"prefix": "mbr",
+		"body": [
+			"<br/>"
+		],
+		"description": "fast new line"
+	},
+	
+}

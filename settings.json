@@ -1,0 +1,39 @@
+{
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter-notebook"
+    },
+    "[markdown]": {
+        "editor.formatOnSave": true,
+        "editor.renderWhitespace": "all",
+        "editor.quickSuggestions": {
+            "other": true,
+            "comments": true,
+            "strings": true
+        },
+        "editor.acceptSuggestionOnEnter": "on"
+    },
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "workbench.colorTheme": "Github Light Theme",
+    "notebook.cellToolbarLocation": {
+        "default": "right",
+        "jupyter-notebook": "left"
+    },
+    "editor-suggest-snippetsPreventQuickSuggestions": false,
+    "editor.fontFamily": "Monaco, Menlo, 'Courier New', monospace",
+    "editor.fontSize": 15,
+    "go.useCodeSnippetsOnFunctionSuggest": true,
+    "editor.suggest.snippetsPreventQuickSuggestions": false,
+    "files.associations": {
+        "*.md": "markdown"
+    },
+    "files.autoSave": "onFocusChange",
+    "files.exclude": {
+        "**/.classpath": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/.factorypath": true
+    },
+    "security.workspace.trust.untrustedFiles": "open",
+    "workbench.iconTheme": "vscode-great-icons"
+}
